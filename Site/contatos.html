@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+  <meta charset="UTF-8">
+  <title>Contatos - Clube de Jogos</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style-contatos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+   </head>
+
+  <body>
+    <header>
+     <div class="caixa">
+      <h1><img src="logo.png" alt="Logo do clube de jogos"</h1>    
+   <nav>
+       <ul>
+       <li><a href="Index.html">Home</a></li>
+       <li><a href="jogos.html">Jogos</a></li>
+       <li><a href="contatos.html">Contatos</a></li>
+       </ul>
+    </nav>
+     </div>
+     </header>
+     <main>
+     <form>
+       <label for="nomesobrenome">Nome e Sobrenome</label>
+       <input type="text" id="nomesobrenome" class="input-padrao" required>
+       
+       <label for "email">Email</label>
+       <input type="email" id="email" class="input-padrao" required placeholder="nathandedao@gmail.com">
+
+       <label for "telefone">Telefone</label>
+       <input type="tel" id "telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+       <label for "mensagem">Mensagem</label>
+       <textarea cols="60" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+  <fildset>
+       <legend>Como prefere o nosso contato?</legend>
+
+       <label for "radio-email"><input type="radio" name="contato" value="email" id "radio-email">Email</label>       
+
+       <label for "radio-telefone"><input type="radio" name= "contato" value="telefone" id "radio-telefone">Telefone</label>       
+
+       <label for "radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id "radio-whatsapp" checked>Whatsapp</label>      
+
+  </fildset>
+
+  <fildset>
+      <legend>Quais dias você está livre para o clube?</legend>
+      <select>
+         <option>Segunda</option>
+         <option>Sexta</option>
+         <option>Todo dia</option>
+      </select>
+  </fildset>
+
+       <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+       <input type="submit" value="Enviar Formulário" class="enviar">
+    </form>
+
+    <table>
+     <thead>
+       <tr>
+         <th>Dia</th>
+         <th>Horário</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>Segunda</td>
+         <td>12:20 ~ 13:00</td>
+       </tr>
+       <tr>
+         <td>Sexta</td>
+         <td>12:20 ~ 13:00</td>
+      </tr>
+      </tbody>
+</table>
+</main>   
+<footer>
+<img src="logo-branco.png" alt="Logo do clube de jogos">
+<p class="copyright">&copy; Copyright Clube De Jogos - 2022</p>
+   </footer>
+    </body>
+</html>
